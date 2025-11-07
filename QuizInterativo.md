@@ -1,4 +1,5 @@
 # Quiz Interativo – Conceitos de Hardware e Software
+> Criador: Prof. Francisco Silva, IFBA campus Valença
 
 ## **Contexto**
 
