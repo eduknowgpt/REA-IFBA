@@ -1,4 +1,5 @@
 # Descrição Detalhada da Tarefa: Implementação do Jogo da Velha
+> Criador: Prof. Dr. Eduardo Cambruzzi, IFBA campus Valença
 
 ## Contexto
 
