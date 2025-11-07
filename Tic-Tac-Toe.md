@@ -44,17 +44,17 @@ A avaliação é **oral e individual**, mesmo com a tarefa feita em grupo. Cada 
 ### C1 - Definir os requisitos da solução analisando criticamente situações do mundo real.
 
 **Descrição detalhada:**
-Esta competência envolve a capacidade de **analisar um problema computacional concreto** — neste caso, o jogo da velha — para identificar, compreender e especificar seus **requisitos funcionais e não funcionais** antes da implementação. O estudante deve observar o funcionamento lógico do jogo, reconhecer suas regras e restrições, e traduzi-las em requisitos claros que orientem o desenvolvimento do programa.
+> Esta competência envolve a capacidade de **analisar um problema computacional concreto** — neste caso, o jogo da velha — para identificar, compreender e especificar seus **requisitos funcionais e não funcionais** antes da implementação. O estudante deve observar o funcionamento lógico do jogo, reconhecer suas regras e restrições, e traduzi-las em requisitos claros que orientem o desenvolvimento do programa.
 O processo inclui a **colaboração** entre os integrantes da dupla, o **raciocínio analítico** para decompor o problema e a **documentação organizada** das observações, de forma a garantir uma base sólida para o código a ser produzido.
 
 **(KS): Pensamento Analítico / Aplicar**
-O estudante aplica o **pensamento analítico** para decompor o funcionamento do jogo em componentes lógicos observáveis, como jogadas, condições de vitória e controle de fluxo. Esse raciocínio permite compreender as relações de causa e efeito no comportamento do jogo e antecipar as decisões de projeto que deverão ser implementadas.
+> O estudante aplica o **pensamento analítico** para decompor o funcionamento do jogo em componentes lógicos observáveis, como jogadas, condições de vitória e controle de fluxo. Esse raciocínio permite compreender as relações de causa e efeito no comportamento do jogo e antecipar as decisões de projeto que deverão ser implementadas.
 
 **(KS): Colaboração / Aplicar**
-O estudante aplica **estratégias colaborativas** para discutir, comparar e validar interpretações sobre o problema com o colega de dupla. Essa cooperação contribui para a construção coletiva dos requisitos e para a resolução de ambiguidades, simulando práticas profissionais de coautoria em engenharia de software.
+> O estudante aplica **estratégias colaborativas** para discutir, comparar e validar interpretações sobre o problema com o colega de dupla. Essa cooperação contribui para a construção coletiva dos requisitos e para a resolução de ambiguidades, simulando práticas profissionais de coautoria em engenharia de software.
 
 **(KS): Especificação de Requisitos / Aplicar**
-O estudante aplica conhecimentos sobre **especificação de requisitos** para expressar, de forma organizada e compreensível, as funcionalidades esperadas (ex.: entrada de jogadas, detecção de vitória, mensagem de empate) e restrições (ex.: jogadas válidas, limite de turnos).
+> O estudante aplica conhecimentos sobre **especificação de requisitos** para expressar, de forma organizada e compreensível, as funcionalidades esperadas (ex.: entrada de jogadas, detecção de vitória, mensagem de empate) e restrições (ex.: jogadas válidas, limite de turnos).
 O foco é transformar observações empíricas do jogo em **descrições estruturadas** que servirão de guia para a codificação.
 
 **(D): Meticuloso e Colaborativo**
@@ -82,15 +82,15 @@ O foco é transformar observações empíricas do jogo em **descrições estrutu
 ### C2 – Identificar formas de organizar e representar a informação de maneira estruturada, incluindo matrizes, registros e listas.
 
 **Descrição detalhada:**
-Esta competência envolve a capacidade de **traduzir elementos conceituais do jogo da velha em estruturas de dados apropriadas**, representando o tabuleiro, as posições jogadas e os estados intermediários da partida. O estudante deve aplicar raciocínio analítico para **modelar informações** do domínio do problema (jogadores, jogadas, condições de vitória) em formatos computacionais adequados, utilizando **listas simples ou listas de listas (matrizes)**.
+> Esta competência envolve a capacidade de **traduzir elementos conceituais do jogo da velha em estruturas de dados apropriadas**, representando o tabuleiro, as posições jogadas e os estados intermediários da partida. O estudante deve aplicar raciocínio analítico para **modelar informações** do domínio do problema (jogadores, jogadas, condições de vitória) em formatos computacionais adequados, utilizando **listas simples ou listas de listas (matrizes)**.
 
-A precisão na representação dos dados é essencial para garantir que as regras do jogo sejam corretamente implementadas e compreendidas, além de favorecer a **manutenção e clareza do código**. O trabalho colaborativo contribui para validar o modelo de dados, discutir alternativas de implementação e verificar sua coerência com os requisitos previamente definidos.
+> A precisão na representação dos dados é essencial para garantir que as regras do jogo sejam corretamente implementadas e compreendidas, além de favorecer a **manutenção e clareza do código**. O trabalho colaborativo contribui para validar o modelo de dados, discutir alternativas de implementação e verificar sua coerência com os requisitos previamente definidos.
 
 **(KS): Estruturas de dados / Aplicar**
-O estudante aplica conhecimentos de **estruturas de dados** para escolher e utilizar representações adequadas (listas ou matrizes) que armazenem o estado atual do jogo. Isso inclui compreender como **acessar, modificar e exibir** os dados da estrutura de maneira eficiente e legível, garantindo consistência durante o ciclo de jogadas.
+> O estudante aplica conhecimentos de **estruturas de dados** para escolher e utilizar representações adequadas (listas ou matrizes) que armazenem o estado atual do jogo. Isso inclui compreender como **acessar, modificar e exibir** os dados da estrutura de maneira eficiente e legível, garantindo consistência durante o ciclo de jogadas.
 
 **(KS): Pensamento Analítico / Aplicar**
-O estudante aplica o **pensamento analítico** para identificar quais informações do jogo precisam ser representadas, como relacioná-las entre si (ex.: posição da jogada, valor “X” ou “O”, condição de vitória) e como essas relações influenciam as operações sobre os dados. Essa análise orienta a escolha de estruturas adequadas e previne redundâncias ou inconsistências lógicas.
+> O estudante aplica o **pensamento analítico** para identificar quais informações do jogo precisam ser representadas, como relacioná-las entre si (ex.: posição da jogada, valor “X” ou “O”, condição de vitória) e como essas relações influenciam as operações sobre os dados. Essa análise orienta a escolha de estruturas adequadas e previne redundâncias ou inconsistências lógicas.
 
 **(D): Meticuloso e Colaborativo**
 
@@ -119,18 +119,18 @@ A representação do tabuleiro (listas, matrizes) é parte do processo de **prop
 ### C3 – Aplicar estruturas condicionais e laços de repetição, de forma criativa e inventiva, para controle de fluxo.
 
 **Descrição detalhada:**
-Esta competência refere-se à capacidade de **controlar o comportamento dinâmico do jogo da velha** por meio do uso combinado de estruturas condicionais e de repetição. O estudante deve compreender e aplicar comandos de **decisão e iteração** para gerenciar turnos, validar jogadas e determinar as condições de vitória ou empate, garantindo que o jogo se mantenha consistente do início ao fim.
-Além de aplicar corretamente esses conceitos, espera-se que o estudante **explore soluções criativas e inventivas**, buscando simplificar o código, reduzir redundâncias e antecipar possíveis exceções lógicas.
-A **meticulosidade** é essencial para evitar erros de lógica e garantir o fluxo correto das jogadas, enquanto a **colaboração** possibilita o refinamento coletivo das estratégias de controle e depuração.
+> Esta competência refere-se à capacidade de **controlar o comportamento dinâmico do jogo da velha** por meio do uso combinado de estruturas condicionais e de repetição. O estudante deve compreender e aplicar comandos de **decisão e iteração** para gerenciar turnos, validar jogadas e determinar as condições de vitória ou empate, garantindo que o jogo se mantenha consistente do início ao fim.
+> Além de aplicar corretamente esses conceitos, espera-se que o estudante **explore soluções criativas e inventivas**, buscando simplificar o código, reduzir redundâncias e antecipar possíveis exceções lógicas.
+> A **meticulosidade** é essencial para evitar erros de lógica e garantir o fluxo correto das jogadas, enquanto a **colaboração** possibilita o refinamento coletivo das estratégias de controle e depuração.
 
 **(KS): Estruturas condicionais (if, elif, else) / Aplicar**
-O estudante aplica **estruturas condicionais** para controlar decisões no jogo, como verificar se uma jogada é válida, identificar o vencedor ou detectar um empate. Esse uso envolve traduzir regras do jogo em condições lógicas bem definidas, garantindo que cada cenário seja corretamente tratado no fluxo do programa.
+> O estudante aplica **estruturas condicionais** para controlar decisões no jogo, como verificar se uma jogada é válida, identificar o vencedor ou detectar um empate. Esse uso envolve traduzir regras do jogo em condições lógicas bem definidas, garantindo que cada cenário seja corretamente tratado no fluxo do programa.
 
 **(KS): Estruturas de repetição (while, for) / Aplicar**
-O estudante aplica **laços de repetição** para criar o ciclo contínuo do jogo, permitindo que as jogadas se repitam até que seja atingida uma condição de término (vitória ou empate). Isso inclui controlar o número de turnos, alternar jogadores e assegurar que o loop de execução respeite as regras definidas.
+> O estudante aplica **laços de repetição** para criar o ciclo contínuo do jogo, permitindo que as jogadas se repitam até que seja atingida uma condição de término (vitória ou empate). Isso inclui controlar o número de turnos, alternar jogadores e assegurar que o loop de execução respeite as regras definidas.
 
 **(KS): Operadores relacionais e lógicos / Aplicar**
-O estudante aplica **operadores relacionais e lógicos** para expressar as condições de decisão e repetição, compondo expressões booleanas que permitem avaliar estados do jogo (ex.: “as três posições são iguais” ou “há espaços disponíveis”). Esses operadores garantem **precisão na tomada de decisão** e eficiência no controle do fluxo.
+> O estudante aplica **operadores relacionais e lógicos** para expressar as condições de decisão e repetição, compondo expressões booleanas que permitem avaliar estados do jogo (ex.: “as três posições são iguais” ou “há espaços disponíveis”). Esses operadores garantem **precisão na tomada de decisão** e eficiência no controle do fluxo.
 
 **(D): Criativo (inovador), Inventivo (exploratório), Meticuloso, Colaborativo**
 
@@ -156,14 +156,14 @@ O estudante aplica **operadores relacionais e lógicos** para expressar as condi
 ### C4 – Modularizar o código, de forma meticulosa, para dividir responsabilidades, organizando-o em funções independentes.
 
 **Descrição detalhada:**
-Esta competência envolve a capacidade de **estruturar programas de forma modular**, decompondo o problema em funções específicas e reutilizáveis, cada uma responsável por uma parte claramente definida do jogo. O estudante deve ser capaz de **criar funções** com parâmetros e retorno de valores, compreender o **escopo das variáveis utilizadas** e organizar o fluxo do programa de modo que cada componente possa ser entendido, testado e modificado de forma isolada.
-A modularização reflete **maturidade no raciocínio computacional**, pois permite clareza, reuso e manutenção facilitada do código. O comportamento meticuloso assegura que as funções sejam implementadas com precisão e coerência, enquanto a colaboração possibilita a integração harmoniosa das partes produzidas pela dupla.
+> Esta competência envolve a capacidade de **estruturar programas de forma modular**, decompondo o problema em funções específicas e reutilizáveis, cada uma responsável por uma parte claramente definida do jogo. O estudante deve ser capaz de **criar funções** com parâmetros e retorno de valores, compreender o **escopo das variáveis utilizadas** e organizar o fluxo do programa de modo que cada componente possa ser entendido, testado e modificado de forma isolada.
+> A modularização reflete **maturidade no raciocínio computacional**, pois permite clareza, reuso e manutenção facilitada do código. O comportamento meticuloso assegura que as funções sejam implementadas com precisão e coerência, enquanto a colaboração possibilita a integração harmoniosa das partes produzidas pela dupla.
 
 **(KS): Função, parâmetros e retorno / Criar**
-O estudante **cria funções específicas** para encapsular responsabilidades distintas dentro do programa, como inicializar o tabuleiro, checar condições de vitória ou imprimir o estado atual do jogo. Esse processo exige definir **parâmetros adequados**, compreender o fluxo de dados entre as funções e planejar retornos consistentes que alimentem outras partes do programa.
+> O estudante **cria funções específicas** para encapsular responsabilidades distintas dentro do programa, como inicializar o tabuleiro, checar condições de vitória ou imprimir o estado atual do jogo. Esse processo exige definir **parâmetros adequados**, compreender o fluxo de dados entre as funções e planejar retornos consistentes que alimentem outras partes do programa.
 
 **(KS): Escopo de variáveis / Aplicar**
-O estudante aplica corretamente o conceito de **escopo**, diferenciando variáveis locais e globais, de modo a evitar conflitos de nomes e comportamentos inesperados. Essa aplicação prática demonstra domínio sobre a **visibilidade e duração das variáveis** no contexto de funções, garantindo integridade e previsibilidade no código.
+> O estudante aplica corretamente o conceito de **escopo**, diferenciando variáveis locais e globais, de modo a evitar conflitos de nomes e comportamentos inesperados. Essa aplicação prática demonstra domínio sobre a **visibilidade e duração das variáveis** no contexto de funções, garantindo integridade e previsibilidade no código.
 
 **(D): Meticuloso, Colaborativo**
 
@@ -184,18 +184,18 @@ O estudante aplica corretamente o conceito de **escopo**, diferenciando variáve
 ### C5 - Justificar de forma ética, clara e fundamentada a autoria de soluções computacionais.
 
 **Descrição detalhada:**
-Esta competência envolve a capacidade de **explicar e defender a própria solução computacional**, demonstrando domínio conceitual, clareza comunicativa e responsabilidade ética.
+> Esta competência envolve a capacidade de **explicar e defender a própria solução computacional**, demonstrando domínio conceitual, clareza comunicativa e responsabilidade ética.
 Durante a avaliação oral, o estudante deve ser capaz de **compreender o vocabulário técnico** da programação, **aplicar o raciocínio lógico** para justificar decisões de implementação e **comunicar-se oralmente** de forma estruturada e fundamentada.
-A competência reflete não apenas a apropriação cognitiva do conhecimento, mas também o **compromisso ético com a autoria do trabalho** e com a comunicação respeitosa e colaborativa no ambiente acadêmico.
+> A competência reflete não apenas a apropriação cognitiva do conhecimento, mas também o **compromisso ético com a autoria do trabalho** e com a comunicação respeitosa e colaborativa no ambiente acadêmico.
 
 **(KS): Vocabulário técnico da programação (função, laço, variável, condição, etc.) / Compreender**
-O estudante compreende o significado e o uso do **vocabulário técnico da programação**, reconhecendo termos e conceitos fundamentais como função, estrutura de repetição, condição lógica e variável. Essa compreensão permite interpretar e explicar, com precisão, as partes do código e as decisões tomadas durante o desenvolvimento.
+> O estudante compreende o significado e o uso do **vocabulário técnico da programação**, reconhecendo termos e conceitos fundamentais como função, estrutura de repetição, condição lógica e variável. Essa compreensão permite interpretar e explicar, com precisão, as partes do código e as decisões tomadas durante o desenvolvimento.
 
 **(KS): Raciocínio lógico / Aplicar**
-O estudante aplica o **raciocínio lógico** para justificar a sequência de operações do código, demonstrando coerência entre os requisitos do problema e a estrutura da solução. Essa habilidade envolve **argumentar de forma fundamentada**, conectando causa e efeito entre decisões algorítmicas e resultados obtidos.
+> O estudante aplica o **raciocínio lógico** para justificar a sequência de operações do código, demonstrando coerência entre os requisitos do problema e a estrutura da solução. Essa habilidade envolve **argumentar de forma fundamentada**, conectando causa e efeito entre decisões algorítmicas e resultados obtidos.
 
 **(KS): Comunicação Oral / Aplicar**
-O estudante aplica habilidades de **comunicação oral** para descrever a solução de maneira clara, organizada e acessível. Isso inclui o uso adequado da terminologia técnica, o encadeamento lógico das ideias e a capacidade de responder a questionamentos do avaliador de forma segura e fundamentada.
+> O estudante aplica habilidades de **comunicação oral** para descrever a solução de maneira clara, organizada e acessível. Isso inclui o uso adequado da terminologia técnica, o encadeamento lógico das ideias e a capacidade de responder a questionamentos do avaliador de forma segura e fundamentada.
 
 **(D): Ético, Comunicativo, Responsável**
 
