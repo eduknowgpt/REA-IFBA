@@ -1,45 +1,3 @@
-# Sobre a OntoKSD
-
-A **OntoKSD** (*Ontology for Knowledge–Skill–Disposition*) é uma ontologia desenvolvida para representar formalmente competências educacionais no domínio da Computação, segundo o modelo de *Competency-Based Education* (CBE) e os referenciais internacionais da **ACM/IEEE CC2020**.
-Ela permite descrever uma competência como uma entidade composta, que articula três dimensões fundamentais:
-
-1. **Knowledge (K)** – o conhecimento conceitual ou factual que o estudante deve mobilizar;
-2. **Skill (S)** – a ação cognitiva ou prática que o estudante deve realizar, associada a um nível da Taxonomia de Bloom (ex.: *Compreender, Aplicar, Analisar, Criar*);
-3. **Disposition (D)** – as atitudes, valores ou posturas demonstradas pelo estudante ao executar a tarefa (ex.: *meticuloso, colaborativo, ético*).
-
-Essa estrutura visa tornar as competências **observáveis, avaliáveis e semanticamente interoperáveis**, permitindo que elas sejam reutilizadas, validadas e alinhadas a frameworks de referência (BNCC Computação, CC2020, CS2023 etc.).
-
-No contexto desta tarefa — **Implementação do Jogo da Velha** —, a OntoKSD é aplicada para mapear o aprendizado de programação (estruturas de dados, controle de fluxo, modularização e comunicação) a evidências de desempenho e disposições observáveis durante a atividade prática e a avaliação oral.
-
----
-
-## Significado dos Pares (KS)
-
-Os **pares (KS)** representam a associação entre um conhecimento específico e uma habilidade cognitiva derivada da Taxonomia de Bloom. Cada par define **o que** o estudante mobiliza (K) e **o que faz** com esse conhecimento (S) no contexto da tarefa.
-
-O **Conhecimento (K)** é sempre identificado a partir de vocabulários padronizados (CC2020, CS2013, BNCC Computação ou domínios fundamentais como `AnalyticalThinking`, `DataStructures`, `RequirementsSpecification`).
-
-A **Skill (S)** é um verbo de ação cognitiva — como *Compreender, Aplicar, Analisar, Criar* — que expressa o nível de proficiência esperado e é mapeado na ontologia por meio da propriedade `hasBloomLevel`.
-
-**Exemplo:**
-
-**(KS): Estruturas de dados / Aplicar**
-O estudante utiliza seus conhecimentos sobre **estruturas de dados** (K) para **aplicar** (S) listas ou matrizes na representação do jogo.
-
----
-
-## Significado das Disposições (D)
-
-As **disposições (D)** representam atitudes e traços observáveis de comportamento que qualificam o modo como o estudante aplica o conhecimento e a habilidade. Elas não descrevem **o “quê”** o estudante sabe ou faz, mas **como** ele age cognitivamente e socialmente ao fazê-lo.
-
-Essas disposições podem ser de natureza:
-
-* **Cognitiva**: meticuloso, analítico, criativo;
-* **Interpessoal**: colaborativo, comunicativo;
-* **Ética e profissional**: responsável, ético.
-
----
-
 # Descrição Detalhada da Tarefa: Implementação do Jogo da Velha
 
 ## Contexto
@@ -69,7 +27,7 @@ A avaliação é **oral e individual**, mesmo com a tarefa feita em grupo. Cada 
 * Clareza na explicação e domínio dos conceitos (**critério cognitivo**).
 * Colaboração e equidade no trabalho (**critério atitudinal**).
 
----
+
 
 # Competências Especificadas (OntoKSD + BNCC Computação)
 
@@ -77,11 +35,11 @@ A avaliação é **oral e individual**, mesmo com a tarefa feita em grupo. Cada 
 
 * **Compreender, analisar, projetar e implementar soluções computacionais** para problemas do cotidiano, mobilizando conceitos de algoritmos, representação de dados e estruturas de controle, de forma ética, colaborativa e reflexiva.
 
----
+
 
 ## Competências Específicas da Tarefa
 
----
+
 
 ### C1 - Definir os requisitos da solução analisando criticamente situações do mundo real.
 
@@ -119,7 +77,7 @@ O foco é transformar observações empíricas do jogo em **descrições estrutu
 * **EM13CO01** – “Explorar e construir a solução de problemas por meio da reutilização de partes de soluções existentes” – ao analisar o jogo, os estudantes podem se apoiar em padrões de solução já conhecidos (ex.: exemplos de pseudocódigo para jogos de tabuleiro) e adaptá-los.
 * **EM13CO02** – “Explorar e construir a solução de problemas por meio de refinamentos, utilizando diversos níveis de abstração desde a especificação até a implementação” – C1 está no nível de especificação de requisitos, que depois será refinado em algoritmos e código.
 
----
+
 
 ### C2 – Identificar formas de organizar e representar a informação de maneira estruturada, incluindo matrizes, registros e listas.
 
@@ -156,7 +114,7 @@ A representação do tabuleiro (listas, matrizes) é parte do processo de **prop
 * **(EF09CO02)** – (no 9º ano) Construir soluções computacionais selecionando tipos de dados e estruturas apropriadas às situações propostas; o texto da BNCC destaca especificamente vetores e matrizes como instrumentos centrais de representação.
 * **(EM13CO02)** – Ao escolher e refinar estruturas (ex.: trocar uma representação mais confusa por outra mais clara), o aluno pratica o refinamento por abstração em diferentes níveis, desde o modelo conceitual do tabuleiro até a implementação em código.
 
----
+
 
 ### C3 – Aplicar estruturas condicionais e laços de repetição, de forma criativa e inventiva, para controle de fluxo.
 
@@ -193,7 +151,7 @@ O estudante aplica **operadores relacionais e lógicos** para expressar as condi
 * **(EF04CO03)** – Elaborar algoritmos que envolvam **repetições simples e aninhadas**, reforçando a ideia de ciclos que se repetem sob certas condições (ex.: percorrer o tabuleiro, verificar linhas/colunas/diagonais).
 * **(EF69CO02)** – Criar algoritmos com **estruturas de seleção e repetição** em diferentes linguagens de programação, consolidando o uso de condicionais e laços no código.
 
----
+
 
 ### C4 – Modularizar o código, de forma meticulosa, para dividir responsabilidades, organizando-o em funções independentes.
 
@@ -221,7 +179,7 @@ O estudante aplica corretamente o conceito de **escopo**, diferenciando variáve
 
 * **(EM13CO02)** – Refinar soluções computacionais em diferentes níveis de abstração, desde a arquitetura até a implementação, o que inclui decidir **como decompor o programa em funções** e como elas se comunicam.
 
----
+
 
 ### C5 - Justificar de forma ética, clara e fundamentada a autoria de soluções computacionais.
 
